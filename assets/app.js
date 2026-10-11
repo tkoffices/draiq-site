@@ -7,7 +7,7 @@
   if(orange){
     orange.insertAdjacentHTML('beforebegin', `
     <section class="section impact-section" id="impact"><div class="container">
-      <div class="section-heading center impact-heading"><p class="eyebrow">IMPACT SIMULATION</p><h2>数字で見る、<br><span>積算AI導入のインパクト。</span></h2><p>見積作成10時間、月20件、1時間あたり3,000円として算出した導入シミュレーション例です。</p></div>
+      <div class="section-heading center impact-heading"><p class="eyebrow">IMPACT SIMULATION</p><h2>数字で見る<br><span>積算AI導入の見込み</span></h2><p>見積作成10時間、月20件、1時間あたり3,000円として算出した導入シミュレーション例です。</p></div>
       <div class="impact-table-wrap"><table class="impact-table"><thead><tr><th>指標</th><th>導入前</th><th>導入後</th><th>効果</th></tr></thead><tbody>
         <tr><th>見積1件の作業時間</th><td>10時間</td><td>1時間</td><td><strong>9時間削減</strong></td></tr>
         <tr><th>作業時間</th><td>100%</td><td>10%</td><td><strong>90%削減</strong></td></tr>
@@ -25,7 +25,7 @@
     </div></section>
 
     <section class="section workflow-section" id="workflow"><div class="container">
-      <div class="section-heading center workflow-heading"><p class="eyebrow">BEFORE / AFTER</p><h2>導入前と導入後で、<br><span>積算業務はこう変わります。</span></h2><p>見積作成の時間を減らすだけではありません。積算工程そのものを整理し、人が行う判断とAIが担う処理を分けることで、業務全体の流れを変えていきます。</p></div>
+      <div class="section-heading center workflow-heading"><p class="eyebrow">BEFORE / AFTER</p><h2>導入前と導入後で<br><span>積算業務はこう変わります</span></h2><p>見積作成の時間を減らすだけではありません。積算工程そのものを整理し、<br>人が行う判断とAIが担う処理を分けることで、業務全体の流れを変えていきます。</p></div>
       <div class="workflow-compare">
         <div class="workflow-column before"><div class="workflow-column-head"><span>BEFORE</span><h3>導入前</h3><p>確認・検索・転記・整理まで、人が抱え込みやすい状態。</p></div><ol class="workflow-list">
           <li><span class="workflow-num">01</span><div><h4>図面・仕様書の確認</h4><p>担当者が図面や仕様書を見ながら、必要な情報を手作業で整理する。</p></div></li>
