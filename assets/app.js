@@ -54,7 +54,7 @@
     </div></section>
 
     <section class="section implementation-section" id="implementation"><div class="container">
-      <div class="section-heading center implementation-heading"><p class="eyebrow">IMPLEMENTATION FLOW</p><h2>いきなりAIを入れません。<br><span>まず、積算業務を整理します。</span></h2><p>現在の積算体制を確認し、AI化できる工程と人が判断すべき工程を切り分けながら、段階的に導入していきます。</p></div>
+      <div class="section-heading center implementation-heading"><p class="eyebrow">IMPLEMENTATION FLOW</p><h2>いきなりAIを入れません<br><span>まず、積算業務を整理します</span></h2><p>現在の積算体制を確認し、AI化できる工程と人が判断すべき工程を切り分けながら、<br>段階的に導入していきます。</p></div>
       <div class="implementation-grid">
         <article class="implementation-step"><span>01</span><h3>現状ヒアリング</h3><p>現在の積算体制、担当人数、案件数、困っていることを確認します。</p></article>
         <article class="implementation-step"><span>02</span><h3>積算工程を整理</h3><p>図面確認、数量拾い、単価確認、見積作成など、現在の業務フローを整理します。</p></article>
