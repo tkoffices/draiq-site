@@ -50,7 +50,7 @@
         <article><span>02</span><div><h3>属人化を軽減</h3><p>一人の経験だけに依存しにくい体制へ近づける。</p></div></article>
         <article><span>03</span><div><h3>人は判断に集中</h3><p>重要な確認や最終判断に時間を使いやすくする。</p></div></article>
       </div>
-      <div class="workflow-note"><p>実際の効率化範囲は、図面、案件内容、運用方法、既存データの状態によって異なります。最終的な見積内容の確認と判断は、人による確認を前提としています。</p></div>
+      <div class="workflow-note"><strong>掲載している内容は一例です。ご要望に応じて、その他の機能追加も柔軟に検討できます。</strong><p>実際の効率化範囲は、図面、案件内容、運用方法、既存データの状態によって異なります。最終的な見積内容の確認と判断は、人による確認を前提としています。</p></div>
     </div></section>
 
     <section class="section implementation-section" id="implementation"><div class="container">
