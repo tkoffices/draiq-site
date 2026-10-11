@@ -127,13 +127,9 @@ a{color:inherit;text-decoration:none}
 .contact-points li:before{content:"—";color:var(--orange);margin-right:10px}
 .contact-person{margin-top:30px}
 .contact-person img{border-radius:20px;max-width:420px;box-shadow:0 16px 50px rgba(0,0,0,.25)}
-.contact-form{padding:28px;background:#111d2f;border:1px solid var(--line);border-radius:20px}
-.contact-form label{display:block;margin-bottom:14px;color:#bfc8d3;font-size:12px;font-weight:700}
-.contact-form input,.contact-form select,.contact-form textarea{width:100%;margin-top:7px;padding:13px 14px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:#0b1524;color:#fff;font:inherit;outline:none}
-.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{border-color:var(--orange)}
-.contact-form select option{color:#111}
-.form-btn{width:100%;margin-top:4px}
-.form-note{text-align:center;color:#718196;font-size:11px;margin:10px 0 0}
+.contact-email{padding:28px;background:#111d2f;border:1px solid var(--line);border-radius:20px}
+.contact-email-button{width:100%;margin-top:4px}
+.contact-email-note{text-align:center;color:#718196;font-size:11px;margin:10px 0 0}
 .footer{background:#050b13;color:#8290a2;padding:34px 0;border-top:1px solid rgba(255,255,255,.06)}
 .footer-inner{display:grid;grid-template-columns:1fr auto auto;align-items:center;gap:30px;font-size:11px}
 .footer-brand{color:#fff}
@@ -159,6 +155,7 @@ a{color:inherit;text-decoration:none}
 .policy-card{background:#fff;border:1px solid #e4e8ed;border-radius:22px;padding:38px;max-width:900px;margin:0 auto}
 .policy-card h1{margin:0 0 28px;font-size:38px}
 .policy-card h2{font-size:19px;margin:30px 0 8px}
+.policy-back-link{margin-top:36px}
 .policy-card p,.policy-card li{font-size:14px;color:#586576}
 .policy-card ul{padding-left:20px}
 .error-page{background:#08101d;color:#fff;min-height:100vh;display:grid;place-items:center;padding:24px;text-align:center}
@@ -185,12 +182,10 @@ section{scroll-margin-top:82px}
 .selfcheck-result strong{display:block;margin:3px 0 8px;font-size:30px;color:var(--orange)}
 .selfcheck-result p{margin:0;color:#bec8d4;font-size:13px}
 .selfcheck-cta{width:100%;margin-top:14px}
-.contact-form input,.contact-form select,.contact-form textarea{transition:border-color .2s ease,box-shadow .2s ease}
-.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{box-shadow:0 0 0 3px rgba(255,122,26,.10)}
 .footer-inner{grid-template-columns:auto 1fr auto auto}
 .footer-links{justify-self:center}
 .footer p{margin:0}
 .mobile-sticky-cta{padding-bottom:env(safe-area-inset-bottom)}
 @media (max-width:980px){.hero-grid,.split,.faq-layout,.contact-grid,.callout,.risk-layout{grid-template-columns:1fr;gap:38px}.sticky{position:static}.hero-visual>img{height:500px}.floating-panel{position:relative;left:auto;bottom:auto;margin-top:-60px;margin-left:18px}.flow{grid-template-columns:1fr}.flow-arrow{transform:rotate(90deg);justify-self:center}.feature-grid,.case-list{grid-template-columns:1fr}.footer-inner{grid-template-columns:1fr}.selfcheck-grid{grid-template-columns:1fr;gap:34px}.footer-links{justify-self:start}}
-@media (max-width:760px){.container{width:min(calc(100% - 28px),var(--max))}.desktop-nav{display:none}.menu-toggle{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:0 14px;background:none;border:1px solid rgba(255,255,255,.18);border-radius:10px;color:#fff;font-weight:800}.mobile-nav{display:none;flex-direction:column;gap:0;background:#0b1422;border-top:1px solid rgba(255,255,255,.08)}.mobile-nav.open{display:flex}.mobile-nav a{padding:16px 20px;color:#d4dde8;border-bottom:1px solid rgba(255,255,255,.05)}.hero{padding:72px 0 64px}.hero h1{font-size:clamp(38px,11vw,48px)}.hero h1 br{display:none}.lead{font-size:15px}.hero-actions{display:grid}.btn{width:100%}.hero-mini-cards{grid-template-columns:1fr}.floating-panel{width:calc(100% - 18px);margin-left:9px;margin-top:-42px}.hero-visual>img{height:360px}.section{padding:76px 0}.section-orange{padding:56px 0}.section-heading h2,.contact-section h2{font-size:clamp(32px,9.5vw,40px)}.card{padding:23px}.quote-panel{padding:24px}.quote-panel strong{font-size:17px}.contact-form{padding:20px}.footer{padding-bottom:80px}.official-note{width:min(calc(100% - 28px),var(--max));flex-direction:column;align-items:flex-start}.official-note a{width:100%;padding:12px 14px;border-radius:10px;background:#f3f5f8}.mobile-sticky-cta{display:flex;position:fixed;left:14px;right:14px;bottom:12px;z-index:120;align-items:center;justify-content:center;height:50px;border-radius:12px;background:var(--orange);color:#111;font-weight:900;box-shadow:0 12px 35px rgba(0,0,0,.25)}.policy-main{padding:42px 0 90px}.policy-card{padding:24px}.policy-card h1{font-size:30px}.hero-note{line-height:1.7}.selfcheck-card{padding:20px}.check-item{font-size:13px}.official-section{padding-top:20px}body{padding-bottom:74px}}
+@media (max-width:760px){.container{width:min(calc(100% - 28px),var(--max))}.desktop-nav{display:none}.menu-toggle{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:0 14px;background:none;border:1px solid rgba(255,255,255,.18);border-radius:10px;color:#fff;font-weight:800}.mobile-nav{display:none;flex-direction:column;gap:0;background:#0b1422;border-top:1px solid rgba(255,255,255,.08)}.mobile-nav.open{display:flex}.mobile-nav a{padding:16px 20px;color:#d4dde8;border-bottom:1px solid rgba(255,255,255,.05)}.hero{padding:72px 0 64px}.hero h1{font-size:clamp(38px,11vw,48px)}.hero h1 br{display:none}.lead{font-size:15px}.hero-actions{display:grid}.btn{width:100%}.hero-mini-cards{grid-template-columns:1fr}.floating-panel{width:calc(100% - 18px);margin-left:9px;margin-top:-42px}.hero-visual>img{height:360px}.section{padding:76px 0}.section-orange{padding:56px 0}.section-heading h2,.contact-section h2{font-size:clamp(32px,9.5vw,40px)}.card{padding:23px}.quote-panel{padding:24px}.quote-panel strong{font-size:17px}.contact-email{padding:20px}.footer{padding-bottom:80px}.official-note{width:min(calc(100% - 28px),var(--max));flex-direction:column;align-items:flex-start}.official-note a{width:100%;padding:12px 14px;border-radius:10px;background:#f3f5f8}.mobile-sticky-cta{display:flex;position:fixed;left:14px;right:14px;bottom:12px;z-index:120;align-items:center;justify-content:center;height:50px;border-radius:12px;background:var(--orange);color:#111;font-weight:900;box-shadow:0 12px 35px rgba(0,0,0,.25)}.policy-main{padding:42px 0 90px}.policy-card{padding:24px}.policy-card h1{font-size:30px}.hero-note{line-height:1.7}.selfcheck-card{padding:20px}.check-item{font-size:13px}.official-section{padding-top:20px}body{padding-bottom:74px}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
