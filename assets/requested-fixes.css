@@ -1,0 +1,285 @@
+/* Adjustments requested after the direct-email contact change */
+
+/* AI review cards: centered, comfortably readable copy with room to wrap */
+#ai .check-list article {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#ai .check-list article > span {
+  font-size: 11px;
+}
+
+#ai .check-list h3 {
+  font-size: 22px;
+  line-height: 1.45;
+  margin: 12px 0 9px;
+}
+
+#ai .check-list p {
+  width: 100%;
+  max-width: 34rem;
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* Six consultation cards: center each item and keep descriptions with titles */
+.consultation-items article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  min-height: 198px;
+  padding: 24px 22px;
+  text-align: center;
+}
+
+.consultation-items article > span {
+  flex: 0 0 auto;
+}
+
+.consultation-items article > div {
+  display: block;
+  min-height: 0;
+}
+
+.consultation-items h3 {
+  margin: 0 0 7px;
+  font-size: 20px;
+  line-height: 1.45;
+}
+
+.consultation-items p {
+  max-width: 30rem;
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* Contact: one centered composition, with the mail link inside the same panel */
+.contact-section {
+  padding-top: 92px;
+  padding-bottom: 84px;
+}
+
+.contact-shell {
+  max-width: 1120px;
+}
+
+.contact-intro {
+  max-width: 850px;
+  margin: 0 auto 34px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: clamp(38px, 5vw, 58px);
+  line-height: 1.2;
+}
+
+.contact-lead {
+  max-width: 720px;
+  margin: 16px auto 0;
+  color: #aab7c7;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.contact-panel {
+  padding: 36px 38px 32px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: #111d2f;
+  box-shadow: 0 20px 56px rgba(0, 0, 0, .18);
+}
+
+.contact-points-label {
+  margin: 0 0 16px;
+  color: #c4cfdd;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.contact-points {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0;
+  color: #dce4ed;
+  font-size: 14px;
+}
+
+.contact-points li {
+  display: grid;
+  min-height: 68px;
+  place-items: center;
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, .09);
+  border-radius: 12px;
+  background: rgba(7, 16, 29, .48);
+  line-height: 1.55;
+  text-align: center;
+}
+
+.contact-points li::before {
+  content: none;
+}
+
+.contact-email {
+  margin-top: 28px;
+  padding: 24px 0 0;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, .1);
+  border-radius: 0;
+  background: transparent;
+  text-align: center;
+}
+
+.contact-email-note {
+  color: #aab7c7;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.contact-email-button {
+  display: flex;
+  width: min(100%, 620px);
+  min-height: 58px;
+  margin: 12px auto 0;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(17px, 2vw, 21px);
+  overflow-wrap: anywhere;
+}
+
+.contact-email-button + .contact-email-note {
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+.service-disclaimer {
+  max-width: 1120px;
+  margin: 20px auto 0;
+}
+
+/* Make the workflow diagram's illustrative status and flexibility obvious */
+.workflow-note {
+  padding: 20px 24px;
+  border-color: #f2c6c3;
+  background: #fff6f5;
+  text-align: center;
+}
+
+.workflow-note strong {
+  display: block;
+  color: #b42318;
+  font-size: 19px;
+  font-weight: 900;
+  line-height: 1.6;
+}
+
+.workflow-note p {
+  margin-top: 7px;
+  color: #667085;
+  font-size: 13px;
+  line-height: 1.75;
+}
+
+@media (min-width: 981px) {
+  .consultation-items {
+    grid-auto-rows: minmax(198px, auto);
+  }
+}
+
+@media (max-width: 980px) {
+  .contact-points {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  #ai .check-list article {
+    min-height: 0;
+    padding: 22px 20px;
+  }
+
+  #ai .check-list h3 {
+    font-size: 20px;
+  }
+
+  #ai .check-list p {
+    font-size: 14px;
+  }
+
+  .consultation-items article {
+    min-height: 0;
+    padding: 22px 20px;
+  }
+
+  .consultation-items h3 {
+    font-size: 18px;
+  }
+
+  .consultation-items p {
+    font-size: 14px;
+  }
+
+  .contact-section {
+    padding-top: 64px;
+    padding-bottom: 54px;
+  }
+
+  .contact-intro {
+    margin-bottom: 24px;
+  }
+
+  .contact-section h2 {
+    font-size: clamp(30px, 8.2vw, 38px);
+  }
+
+  .contact-lead {
+    font-size: 15px;
+  }
+
+  .contact-panel {
+    padding: 22px 18px;
+    border-radius: 18px;
+  }
+
+  .contact-points {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    font-size: 13px;
+  }
+
+  .contact-points li {
+    min-height: 60px;
+    padding: 10px;
+  }
+
+  .contact-email {
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+
+  .contact-email-button {
+    min-height: 54px;
+    font-size: 16px;
+  }
+
+  .workflow-note {
+    padding: 17px 16px;
+  }
+
+  .workflow-note strong {
+    font-size: 16px;
+  }
+
+  .workflow-note p {
+    font-size: 12px;
+    text-align: left;
+  }
+}
