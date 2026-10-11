@@ -133,13 +133,9 @@ a{color:inherit;text-decoration:none}
 .contact-points li:before{content:"—";color:var(--orange);margin-right:10px}
 .contact-person{margin-top:30px}
 .contact-person img{border-radius:20px;max-width:420px;box-shadow:0 16px 50px rgba(0,0,0,.25)}
-.contact-form{padding:28px;background:#111d2f;border:1px solid var(--line);border-radius:20px}
-.contact-form label{display:block;margin-bottom:14px;color:#bfc8d3;font-size:12px;font-weight:700}
-.contact-form input,.contact-form select,.contact-form textarea{width:100%;margin-top:7px;padding:13px 14px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:#0b1524;color:#fff;font:inherit;outline:none}
-.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{border-color:var(--orange)}
-.contact-form select option{color:#111}
-.form-btn{width:100%;margin-top:4px}
-.form-note{text-align:center;color:#718196;font-size:11px;margin:10px 0 0}
+.contact-email{padding:28px;background:#111d2f;border:1px solid var(--line);border-radius:20px}
+.contact-email-button{width:100%;margin-top:4px}
+.contact-email-note{text-align:center;color:#718196;font-size:11px;margin:10px 0 0}
 .footer{background:#050b13;color:#8290a2;padding:34px 0;border-top:1px solid rgba(255,255,255,.06)}
 .footer-inner{display:grid;grid-template-columns:1fr auto auto;align-items:center;gap:30px;font-size:11px}
 .footer-brand{color:#fff}
@@ -180,7 +176,7 @@ a{color:inherit;text-decoration:none}
   .card{padding:23px}
   .quote-panel{padding:24px}
   .quote-panel strong{font-size:17px}
-  .contact-form{padding:20px}
+  .contact-email{padding:20px}
   .footer{padding-bottom:80px}
 }
 
