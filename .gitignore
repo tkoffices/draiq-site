@@ -1,0 +1,5 @@
+# Local secrets and provider state
+.env
+.env.*
+.vercel/
+node_modules/

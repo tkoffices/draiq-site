@@ -1,0 +1,6 @@
+# Vercel CLI deployments only. Git deployments are protected by vercel.json routes.
+/README.md
+/V7_PHASE3_*.txt
+/work-pending/
+.env
+.env.*

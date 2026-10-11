@@ -1,0 +1,48 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; img-src 'self' data:; script-src 'self'; style-src 'self'; connect-src 'self'; upgrade-insecure-requests"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "src": "^/(?:.*/)?\\.env(?:\\..*)?$",
+      "status": 404
+    },
+    {
+      "src": "^/work-pending(?:/.*)?$",
+      "status": 404
+    },
+    {
+      "src": "^/(?:README\\.md|vercel\\.json|\\.gitignore|\\.vercelignore|V7_PHASE3_(?:COMPLETE|DEPLOY|REF_TRIGGER)\\.txt)$",
+      "status": 404
+    }
+  ]
+}
